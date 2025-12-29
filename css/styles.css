@@ -157,6 +157,12 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.features-icons {
+    background-color: #f4f4fd;
+    padding: 24px 100px;
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+}
 .features-subtitle {
     font-weight: 500;
         font-size: 20px;
@@ -190,7 +196,12 @@ img {
     background-color: #fff;
     width: calc((100% - 72px)/4);
     border-radius: 0 0 4px 4px;
-
+}
+.team-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 .title-team {
     font-weight: 700;
@@ -288,13 +299,18 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 .container.footer-container {
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
     padding: 100px 15px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .footer-logo .logo-accent {
     color: #4D5AE5;
@@ -303,4 +319,20 @@ img {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+.footer-title-links {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-social-icons {
+    display: flex;
+    gap: 16px;
 }
